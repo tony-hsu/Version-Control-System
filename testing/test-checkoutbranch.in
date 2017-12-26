@@ -1,0 +1,23 @@
+# A simple test of adding, committing, modifying, and checking out.
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "added wug"
+<<<
+> branch first
+<<<
++ hello.txt hello.txt
+> add hello.txt
+<<<
+> commit "hi"
+<<<
+> rm wug.txt
+<<<
+* wug.txt
+> commit "test test"
+<<<
+> checkout first
+<<<
+= wug.txt wug.txt
